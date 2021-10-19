@@ -13,7 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css"> 
 
@@ -26,7 +28,7 @@
   <!-- Navigaion -->
   <header>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -45,7 +47,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="service.html">Service</a></li>
-                    <li><a href="policy.html">Policy</a></li>
+                    <li class="current"><a href="policy.html">Policy</a></li>
                     <li><a href="contact.html">contact</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -61,7 +63,7 @@
   </section>
 
   <section class="policy-content">
-    <div class="container text-justify">
+    <div class="container text-left">
     <p>The environmental, health, and safety policies that guide our operations are a vital component of reducing the impact that our activities, services, and products have on the environment.</p>
     <br>
     <p>We are committed to:</p>
@@ -78,73 +80,58 @@
     </ul>
     </div>
   </section>
-  
+
  <!-- Contact us -->
-  <section class="contact-us">
-    <div class="container text-center">
-      <h2>Let’s get started<br>
-        recycling your outdated electronics.</h2>
-      <a href="contact.html" class="btn" role="button">contact us</a>
-    </div>
-  </section>
+ <section class="contact-us">
+  <div class="container-fluid text-center">
+    <h2>Let’s get started<br>
+      recycling your outdated electronics.</h2>
+    <a href="contact.html" class="btn" role="button">contact us</a>
+  </div>
+</section>
 
 <!-- Site footer -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <h1>Alltron</h1>
-          <div class="text-justify">
-            <a href="tel:+10000008888">T: +! 000 000 8888</a><br>
-            <a href="mailto:alltron@gmail.com">E: alltron@gmail.com</a>
-          </div>
-          <p class="text-justify"></p>
+<footer class="site-footer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        <h1>Alltron</h1>
+        <div class="text-justify">
+          <a href="tel:+10000008888">T: +! 000 000 8888</a><br>
+          <a href="mailto:alltron@gmail.com">E: alltron@gmail.com</a>
         </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Office</h6>
-            <address class="text-justify">
-              1234 Alltron Drive,<br>
-              Dallas, TX 75202 <br>
-              United States
-            </address>
-        </div>
-
-        <div class="col-xs-6 col-md-3">
-          <h6>Quick Links</h6>
-          <ul class="footer-links">
-            <li><a href="http://scanfcode.com/about/">About Us</a></li>
-            <li><a href="http://scanfcode.com/contact/">Service</a></li>
-            <li><a href="http://scanfcode.com/privacy-policy/">Policy</a></li>
-            <li><a href="http://scanfcode.com/sitemap/">Contact</a></li>
-          </ul>
-        </div>
-        
+        <p class="text-justify"></p>
       </div>
-      <hr>
+
+      <div class="col-xs-6 col-md-3">
+        <h6>Office</h6>
+          <address class="text-justify">
+            1234 Alltron Drive,<br>
+            Dallas, TX 75202 <br>
+            United States
+          </address>
+      </div>
+
+      <div class="col-xs-6 col-md-2">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="policy.html">Policy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      
     </div>
+    <hr>
+  </div>
 
-    <div class="container">
-      <!-- <div class="row">
-        <div class="col-md-8 col-sm-6 col-xs-12"> -->
-          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
-        <a href="index.html">Alltron</a>.
-          </p>
-        <!-- </div>
+  <div class="container">
+        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+      <a href="index.html">Alltron</a>.
+        </p>
+  </div>
+</footer>
 
-        <div class="col-md-4 col-sm-6 col-xs-12">
-          <ul class="social-icons">
-            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
-            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
-            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
-          </ul>
-        </div>
-      </div> -->
-    </div>
-  </footer>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>

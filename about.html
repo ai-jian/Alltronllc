@@ -13,7 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Stylesheets -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css"> 
 
@@ -26,7 +28,7 @@
   <!-- Navigaion -->
   <header>
     <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
-        <div class="container">
+        <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -43,7 +45,7 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="about.html">About</a></li>
                     <li><a href="service.html">Service</a></li>
                     <li><a href="policy.html">Policy</a></li>
                     <li><a href="contact.html">contact</a></li>
@@ -60,7 +62,7 @@
   </section>
   
   <section class="about-content">
-    <div class="container text-justify">
+    <div class="container text-left">
     <p><span>ALLTRON</span> is an electronic recycling company dedicated to protecting your privacy, and our environment. We pride ourselves on our commitment to providing our clients with electronic disposal and worry-free data security, with dependable customer service at each stage of the process. </p>
     <br>
     <p>You can count on our professionals to design and verify your custom recycling solutions. We have a team for each step of the disposal process to ensure that we uphold the highest standards for safety, security, and environmental sustainability.</p>
@@ -76,7 +78,7 @@
   </section>
  <!-- Contact us -->
  <section class="contact-us">
-  <div class="container text-center">
+  <div class="container-fluid text-center">
     <h2>Let’s get started<br>
       recycling your outdated electronics.</h2>
     <a href="contact.html" class="btn" role="button">contact us</a>
@@ -85,50 +87,46 @@
 
 <!-- Site footer -->
 <footer class="site-footer">
-  <div class="container">
-      <div class="row">
-      <div class="col-sm-12 col-md-6">
-          <h1>Alltron</h1>
-          <div class="text-justify">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 col-md-7">
+        <h1>Alltron</h1>
+        <div class="text-justify">
           <a href="tel:+10000008888">T: +! 000 000 8888</a><br>
           <a href="mailto:alltron@gmail.com">E: alltron@gmail.com</a>
-          </div>
-          <p class="text-justify"></p>
+        </div>
+        <p class="text-justify"></p>
       </div>
 
-      <div class="office col-xs-6 col-md-3">
-          <h6 class="address">Office</h6>
-          <address class="text-left">
-              1234 Alltron Drive,<br>
-              Dallas, TX 75202 <br>
-              United States
+      <div class="col-xs-6 col-md-3">
+        <h6>Office</h6>
+          <address class="text-justify">
+            1234 Alltron Drive,<br>
+            Dallas, TX 75202 <br>
+            United States
           </address>
       </div>
-      
-      <div class="quick-link col-xs-6 col-md-3">
-          <h6 class="right">Quick Links</h6>
-          <ul class="footer-links">
-          <li><a href="http://scanfcode.com/about/">About Us</a></li>
-          <li><a href="http://scanfcode.com/contact/">Service</a></li>
-          <li><a href="http://scanfcode.com/privacy-policy/">Policy</a></li>
-          <li><a href="http://scanfcode.com/sitemap/">Contact</a></li>
-          </ul>
+
+      <div class="col-xs-6 col-md-2">
+        <h6>Quick Links</h6>
+        <ul class="footer-links">
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="service.html">Service</a></li>
+          <li><a href="policy.html">Policy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
       </div>
       
-      </div>
-      <hr>
+    </div>
+    <hr>
   </div>
 
   <div class="container">
-      <!-- <div class="row">
-      <div class="col-md-8 col-sm-6 col-xs-12"> -->
-          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+        <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
       <a href="index.html">Alltron</a>.
-          </p>
+        </p>
   </div>
 </footer>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
