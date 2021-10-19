@@ -364,7 +364,7 @@ main .title {
 }
 
 .about-content {
-  padding: 8rem 0;
+  padding: 8rem 10rem;
   font-size: 2rem;
   line-height: 3rem;
 }
@@ -384,7 +384,7 @@ main .title {
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
   .about-content {
-    padding: 3rem 0;
+    padding: 6rem 8rem;
     font-size: 2rem;
     line-height: 2.5rem;
   }
@@ -424,7 +424,7 @@ main .title {
 }
 
 .policy-content {
-  padding: 8rem 0;
+  padding: 8rem 10rem;
   font-size: 2rem;
   line-height: 3rem;
 }
@@ -438,8 +438,20 @@ main .title {
   padding: 1rem;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .policy-content {
+    padding: 8rem 8rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .policy-content {
+    padding: 8rem 6rem;
+  }
+}
+
 .contact-content {
-  padding: 8rem 0;
+  padding: 8rem 6rem;
   font-size: 2rem;
   line-height: 3rem;
 }
@@ -468,6 +480,56 @@ main .title {
 
 .contact-content .btn:hover {
   background-color: var(--sencondary-color);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .contact-content {
+    padding: 6rem 0;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .contact-content h2, .contact-content h3 {
+    text-align: center;
+    font-size: 120%;
+  }
+  .contact-content .form-group {
+    margin: 2rem;
+  }
+  .contact-content .form-control {
+    margin-top: 0;
+    padding: 2rem;
+  }
+  .contact-content .col-sm-6,
+  .contact-content .col-sm-12 {
+    padding: 1rem 1rem;
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contact-content {
+    padding: 4rem 0;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .contact-content h2, .contact-content h3 {
+    text-align: center;
+    font-size: 90%;
+    font-weight: bold;
+  }
+  .contact-content .form-group {
+    margin: 2rem;
+  }
+  .contact-content .form-control {
+    margin-top: 0;
+    padding: 2rem;
+  }
+  .contact-content .col-sm-6,
+  .contact-content .col-sm-12 {
+    padding: 1rem 1rem;
+    font-size: 1.5rem;
+  }
 }
 
 .contact-us {
@@ -616,6 +678,7 @@ main .title {
 @media (max-width: 991px) {
   .site-footer [class^=col-] {
     margin-bottom: 30px;
+    padding: 0;
   }
 }
 
