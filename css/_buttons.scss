@@ -1,0 +1,14 @@
+.btn {
+    background-color: var(--primary-color);
+    color: var(--light);
+    padding: .6rem 1.3rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    border-radius: .5rem;
+    border: 0;
+    box-shadow: var(--shadow);
+}
+a.btn:hover {
+    background-color: var(--sencondary-color);
+    color: var(--light);
+}
