@@ -10,27 +10,15 @@
     justify-content: center;
     background-image: linear-gradient(white,#5bd9db7c, rgba(245, 198, 10, 0.5),white),
     url("../assets/images/environment.png");
-    background-repeat: no-repeat;
     z-index: -1;
     .container {
-        padding-top: 4rem;
+        padding: 6rem 2rem;
     }
     .info {
         font-size: 1.5rem;
     }
     li{
         margin: 1em 0;
-        list-style: none;
-    }
-    li::before {
-        content: '';
-        display: inline-block;
-        height: 0.9em;
-        width: 0.9em;
-        background-image: url('../assets/images/green-leaf.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        padding: 0 0.9em;
     }
 
 }

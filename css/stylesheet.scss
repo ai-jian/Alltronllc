@@ -42,11 +42,13 @@ img {
         background-position: center center;
         background-repeat: no-repeat;
         height: 100vh;
+        
     }
-    
+   
+
     .carousel-caption {
             max-height: 100vh;
-            // background-image: url("assets/images/1.png");
+        
             background-size: cover;
             background-position: center;
             padding: 16rem 1rem;
@@ -58,23 +60,28 @@ img {
             h1, p, h3 {
                 color: var(--light);
                 text-align: center;
+                letter-spacing: .1ch;
+                line-height: 1.3em;
             }
-    
+            h1, p {
+                font-weight: bold;
+            }
             h1 {
                 font-size: 4rem;
             }
     
             p {
-                font-size: .8rem;
+                font-size: 1.3em;
+                
             }
     
             h3 {
-                font-size: 1.2rem;
+                font-size: 1.3rem;
                 padding: 2rem 0 1rem 0;
             }
     
             .btn {
-                font-size: 1rem;
+                font-size: 1.4rem;
             }
         }
     
@@ -97,8 +104,8 @@ img {
     display: grid;
     gap: 30px;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    // grid-auto-rows: 40em;
-    
+    grid-auto-rows: minmax(500px, 1fr);
+
         .equip-box {
             padding: 4rem 0 4rem 0;
             display: flex;
@@ -241,7 +248,7 @@ img {
             }
             h3 {
                 font-size: 1.7rem;
-                padding: 2rem 0 1rem 0;
+                padding: 3em 0 1em 0;
             }
             .btn {
                 font-size: 1.7rem;
@@ -255,6 +262,7 @@ img {
     }
 
     .equipment {
+        
         .equip-box{
             .subtitle {
                 font-size: 2.5rem;
@@ -280,32 +288,38 @@ img {
     }
 }
 
-// @media screen and (min-width: 1365px) {
-//     .title {
-//         font-size: 4rem;
-//     }
-//     .carousel {
-//         .carousel-caption {
-//             h1 {
-//                 font-size: 9rem;
-//             }
-//             p {
-//                 font-size: 1.7rem;
-//             }
-//             h3 {
-//                 font-size: 2.5rem;
-//                 padding: 3em 0 1em 0;
-//             }
-//             .btn {
-//                 font-size: 2rem;
-//             }
-//         }
-//     }
+@media screen and (min-width: 1365px) {
+    .title {
+        font-size: 4rem;
+    }
+    .carousel {
+        .carousel-caption {
+            h1 {
+                font-size: 10rem;
+            }
+            p {
+                font-size: 1.8rem;
+            }
+            h3 {
+                font-size: 2.5rem;
+                padding: 3em 0 1em 0;
+            }
+            .btn {
+                font-size: 1.3em;
+            }
+        }
+    }
 
-//     .mission h3 {
-//         font-size: 2.3rem;
-//     }
-// }
+    .mission h3 {
+        font-size: 2.3rem;
+    }
+
+    .equipment {
+        .boxes {
+            grid-template-columns: repeat(3, minmax(300px, 1fr));
+        }
+    }
+}
 
 @import 'utilities';
 @import 'buttons';
