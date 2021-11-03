@@ -1,5 +1,6 @@
 // navigation
 .main-nav {
+  position: relative;
   .navbar {
     background-color: var(--primary-color);
     padding: 0;
@@ -9,9 +10,11 @@
     .navbar-header {
       .navbar-brand {
         color: var(--light);
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: bold;
-        margin: 1.5rem 1rem;
+        position: absolute;
+        top: 30%;
+        left: 4%;
         border-color: transparent;
       }
       a:hover {
@@ -19,7 +22,7 @@
       }
       .navbar-toggle {
         border-color: transparent;
-        margin: 1.5rem;
+        margin: 2.5em 1em;
         .icon-bar {
           background-color: var(--light);
         }
@@ -38,10 +41,10 @@
       font-size: 1rem;
       font-weight: bold;
       margin: 0;
-      margin-top: 0.8rem;
+      margin-top: 0.8em;
       padding: 0;
       li {
-        margin: 1rem;
+        margin: 1em;
         a {
           color: var(--light);
         }
@@ -68,7 +71,6 @@
 
     .navbar-brand {
       transition: color 1s ease 0s;
-      font-size: 2rem;
     }
 
     .navbar-nav {
