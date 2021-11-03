@@ -1,55 +1,56 @@
 // ================ Contact ==================
 .contact-content {
-    font-size: 1.5rem;
-    line-height: 3rem;
-  
-    h2, h3 {
-      text-align: left;
-      padding-left: 1rem;
-      line-height: 1.5em;
-    }
+  font-size: 1.5rem;
+  line-height: 3rem;
+
+  h2,
+  h3 {
+    text-align: left;
+    padding-left: 1rem;
+    line-height: 1.5em;
+  }
+  h2 {
+    font-weight: bold;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  .form-group {
+    margin: 1em 0;
+  }
+
+  lable {
+    margin: 0;
+  }
+  .form-control {
+    padding: 1.5em;
+    margin-bottom: 1em;
+    font-size: 1em;
+  }
+  .btn {
+    font-size: 1.7rem;
+    margin: 2em 0;
+    background-color: var(--primary-color);
+  }
+
+  .btn:hover {
+    background-color: var(--sencondary-color);
+  }
+}
+
+@media screen and (min-width: 1365px) {
+  .contact-content {
+    font-size: 1.7rem;
     h2 {
-      font-weight: bold;
+      font-size: 2.5rem;
     }
     h3 {
-      font-size: 1.3rem;
-    }
-    
-    .form-group {
-      margin: 1em 0; 
+      font-size: 1.5rem;
     }
 
-    lable {
-      margin: 0;
-    }
-    .form-control {
-      padding: 1.5em;
-      margin-bottom: 1em;
-      font-size: 1em;
-    } 
     .btn {
-        font-size: 1.7rem;
-      margin: 2em 0;
-      background-color: var(--primary-color);
-    }
-  
-    .btn:hover {
-      background-color: var(--sencondary-color);
+      font-size: 2rem;
     }
   }
-  
- @media screen and (min-width: 1365px) {
-    .contact-content {
-        font-size: 1.7rem;
-        h2 {
-        font-size: 2.5rem;
-        }
-        h3 {
-        font-size: 1.5rem;
-        }
-
-        .btn {
-            font-size: 2rem;
-        }
-    }
 }

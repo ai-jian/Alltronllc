@@ -1,0 +1,39 @@
+body,
+html {
+  height: 100%;
+}
+
+.parallax {
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.recyclingPic {
+  /* The image used */
+  background-image: url("https://i.redd.it/s6yztdvm5sf71.jpg");
+}
+.dataPic {
+  background: linear-gradient(rgba(255, 50, 0, 0.2), rgba(0, 20, 255, 1));
+}
+
+.liquidationPic {
+  /* The image used */
+  background-image: url("https://i.redd.it/s6yztdvm5sf71.jpg");
+}
+
+.parallax-curtain {
+  display: flex;
+  font-size: 1.7rem;
+  color: white;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.2);
+  position: absolute;
+}
