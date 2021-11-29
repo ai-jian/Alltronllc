@@ -16,11 +16,13 @@
         top: 30%;
         left: 4%;
         border-color: transparent;
+        transition: all 0.5s ease-in-out;
       }
       a:hover {
         color: var(--light);
       }
       .navbar-toggle {
+        transition: all 0.5s ease-in-out;
         border-color: transparent;
         margin: 2.5em 1em;
         .icon-bar {
@@ -30,7 +32,6 @@
       .navbar-toggle:hover,
       .navbar-toggle:focus {
         background-color: var(--sencondary-color);
-        transition: all 0.5s ease-in-out;
         .icon-bar {
           background-color: white;
         }
@@ -66,17 +67,17 @@
   }
   .navbar.solid {
     background-color: var(--primary-color);
-    transition: background-color 1s ease 0s;
+    transition: background-color 0.5s ease 0s;
     box-shadow: var(--shadow);
 
     .navbar-brand {
-      transition: color 1s ease 0s;
+      transition: color 0.5s ease 0s;
     }
 
     .navbar-nav {
       > li {
         > a {
-          transition: color 1s ease 0s;
+          transition: color 0.5s ease 0s;
         }
       } //end li
     } //end .navbar-nav
@@ -131,6 +132,7 @@
     a {
       color: var(--light);
       text-decoration: none;
+      transition: all 0.5s ease-in-out;
     }
     a:hover {
       color: var(--sencondary-color);

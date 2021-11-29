@@ -171,7 +171,7 @@ img {
     .process-box {
       color: snow;
       font-size: 2rem;
-      // padding: -20px;
+      padding: 1em;
       margin: -1em;
       height: 10em;
       width: 10em;
@@ -187,7 +187,7 @@ img {
       h1 {
         font-size: 7rem;
         align-self: end;
-        justify-self: end;
+        justify-self: start;
         // position: absolute;
         // left: 2em;
         // bottom: 3em;
@@ -254,8 +254,8 @@ img {
     }
   }
 
-  .mission h3 {
-    font-size: 2rem;
+  .mission p {
+    font-size: 1.5rem;
     line-height: 1.5em;
   }
 
@@ -298,7 +298,7 @@ img {
       // p {
       //   font-size: 1.8rem;
       // }
-      // h3 {
+      // p {
       //   font-size: 2.5rem;
       //   padding: 3em 0 1em 0;
       // }
@@ -308,8 +308,8 @@ img {
     }
   }
 
-  .mission h3 {
-    font-size: 2.3rem;
+  .mission p {
+    font-size: 1.7rem;
   }
 
   .equipment {

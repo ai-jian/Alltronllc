@@ -224,6 +224,7 @@ img {
 .process .process-boxes .process-box {
   color: snow;
   font-size: 2rem;
+  padding: 1em;
   margin: -1em;
   height: 10em;
   width: 10em;
@@ -250,8 +251,8 @@ img {
   -ms-flex-item-align: end;
       -ms-grid-row-align: end;
       align-self: end;
-  -ms-grid-column-align: end;
-      justify-self: end;
+  -ms-grid-column-align: start;
+      justify-self: start;
 }
 
 .process .process-boxes .process-box p {
@@ -314,8 +315,8 @@ img {
   .carousel .carousel-caption .btn {
     font-size: 1.7rem;
   }
-  .mission h3 {
-    font-size: 2rem;
+  .mission p {
+    font-size: 1.5rem;
     line-height: 1.5em;
   }
   .equipment .equip-box .subtitle {
@@ -344,8 +345,8 @@ img {
   .carousel .carousel-caption {
     bottom: 20%;
   }
-  .mission h3 {
-    font-size: 2.3rem;
+  .mission p {
+    font-size: 1.7rem;
   }
   .equipment .boxes {
     -ms-grid-columns: (minmax(300px, 1fr))[3];
@@ -370,13 +371,15 @@ img {
 .btn {
   background-color: var(--primary-color);
   color: var(--light);
-  padding: .6rem 1.3rem;
+  padding: 0.6rem 1.3rem;
   text-decoration: none;
   text-transform: capitalize;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   border: 0;
   -webkit-box-shadow: var(--shadow);
           box-shadow: var(--shadow);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 a.btn:hover {
@@ -404,6 +407,8 @@ a.btn:hover {
   top: 30%;
   left: 4%;
   border-color: transparent;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .main-nav .navbar .navbar-header a:hover {
@@ -411,6 +416,8 @@ a.btn:hover {
 }
 
 .main-nav .navbar .navbar-header .navbar-toggle {
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   border-color: transparent;
   margin: 2.5em 1em;
 }
@@ -422,8 +429,6 @@ a.btn:hover {
 .main-nav .navbar .navbar-header .navbar-toggle:hover,
 .main-nav .navbar .navbar-header .navbar-toggle:focus {
   background-color: var(--sencondary-color);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
 }
 
 .main-nav .navbar .navbar-header .navbar-toggle:hover .icon-bar,
@@ -462,20 +467,20 @@ a.btn:hover {
 
 .main-nav .navbar.solid {
   background-color: var(--primary-color);
-  -webkit-transition: background-color 1s ease 0s;
-  transition: background-color 1s ease 0s;
+  -webkit-transition: background-color 0.5s ease 0s;
+  transition: background-color 0.5s ease 0s;
   -webkit-box-shadow: var(--shadow);
           box-shadow: var(--shadow);
 }
 
 .main-nav .navbar.solid .navbar-brand {
-  -webkit-transition: color 1s ease 0s;
-  transition: color 1s ease 0s;
+  -webkit-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
 }
 
 .main-nav .navbar.solid .navbar-nav > li > a {
-  -webkit-transition: color 1s ease 0s;
-  transition: color 1s ease 0s;
+  -webkit-transition: color 0.5s ease 0s;
+  transition: color 0.5s ease 0s;
 }
 
 .page-title {
@@ -545,6 +550,8 @@ a.btn:hover {
 .site-footer .wrapper a {
   color: var(--light);
   text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .site-footer .wrapper a:hover {
