@@ -709,44 +709,31 @@ a.btn:hover {
 .service-content .service-box .image.box {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
-  height: 20vh;
+  background-size: contain;
+  height: 30vh;
   display: none;
 }
 
-.service-content .service-box .image.recycling {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 205, 0, 0.5))), url("../assets/images/s_recycle.png");
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 205, 0, 0.5)), url("../assets/images/s_recycle.png");
-}
-
-.service-content .service-box .image.data {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 205, 0, 0.5))), url("../assets/images/s_data.png");
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 205, 0, 0.5)), url("../assets/images/s_data.png");
-}
-
-.service-content .service-box .image.liquidation {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 205, 0, 0.5))), url("../assets/images/s_liquidation.png");
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 205, 0, 0.5)), url("../assets/images/s_liquidation.png");
-}
-
 .service-content .service-box .text.box {
-  padding: 1rem;
+  padding: 2rem;
   color: var(--light);
+  background-size: cover;
+  background-position: center;
 }
 
 .service-content .service-box .text.recycling {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 255, 0, 0.5))), url("../assets/images/s_recycle.png");
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../assets/images/s_recycle.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb7b86d), to(rgba(255, 205, 0, 0.3))), url("../assets/images/s_recycle_l.jpg");
+  background-image: linear-gradient(#7eb7b86d, rgba(255, 205, 0, 0.3)), url("../assets/images/s_recycle_l.jpg");
 }
 
 .service-content .service-box .text.data {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 255, 0, 0.5))), url("../assets/images/s_data.png");
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../assets/images/s_data.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb7b86d), to(rgba(255, 205, 0, 0.3))), url("../assets/images/s_data_l.jpg");
+  background-image: linear-gradient(#7eb7b86d, rgba(255, 205, 0, 0.3)), url("../assets/images/s_data_l.jpg");
 }
 
 .service-content .service-box .text.liquidation {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 255, 0, 0.5))), url("../assets/images/s_liquidation.png");
-  background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("../assets/images/s_liquidation.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb7b86d), to(rgba(255, 205, 0, 0.3))), url("../assets/images/s_liquidation_l.jpg");
+  background-image: linear-gradient(#7eb7b86d, rgba(255, 205, 0, 0.3)), url("../assets/images/s_liquidation_l.jpg");
 }
 
 @media only screen and (min-width: 1365px) {
@@ -774,16 +761,16 @@ a.btn:hover {
     display: flex;
   }
   .service-content .service-box .image.recycling {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 205, 0, 0.5))), url("../assets/images/s_recycle.png");
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 205, 0, 0.5)), url("../assets/images/s_recycle.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb7b86d), to(rgba(255, 205, 0, 0.3))), url("../assets/images/s_recycle_l.jpg");
+    background-image: linear-gradient(#7eb7b86d, rgba(255, 205, 0, 0.3)), url("../assets/images/s_recycle_l.jpg");
   }
   .service-content .service-box .image.data {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 205, 0, 0.5))), url("../assets/images/s_data.png");
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 205, 0, 0.5)), url("../assets/images/s_data.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb7b86d), to(rgba(255, 205, 0, 0.3))), url("../assets/images/s_data_l.jpg");
+    background-image: linear-gradient(#7eb7b86d, rgba(255, 205, 0, 0.3)), url("../assets/images/s_data_l.jpg");
   }
   .service-content .service-box .image.liquidation {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 255, 0.5)), to(rgba(255, 205, 0, 0.5))), url("../assets/images/s_liquidation.png");
-    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 205, 0, 0.5)), url("../assets/images/s_liquidation.png");
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#7eb7b86d), to(rgba(255, 205, 0, 0.3))), url("../assets/images/s_liquidation_l.jpg");
+    background-image: linear-gradient(#7eb7b86d, rgba(255, 205, 0, 0.3)), url("../assets/images/s_liquidation_l.jpg");
   }
 }
 
@@ -849,8 +836,9 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#5bd9db7c), color-stop(rgba(245, 198, 10, 0.5)), to(white)), url("../assets/images/1.png");
-  background-image: linear-gradient(white, #5bd9db7c, rgba(245, 198, 10, 0.5), white), url("../assets/images/1.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#5bd9db7c), color-stop(rgba(245, 198, 10, 0.5)), to(white)), url("../assets/images/1_l.jpg");
+  background-image: linear-gradient(white, #5bd9db7c, rgba(245, 198, 10, 0.5), white), url("../assets/images/1_l.jpg");
+  background-size: cover;
   z-index: -1;
 }
 
