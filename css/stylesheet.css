@@ -546,6 +546,7 @@ a.btn:hover {
       -ms-flex-align: start;
           align-items: flex-start;
   line-height: 1.4em;
+  font-size: 80%;
 }
 
 .site-footer .wrapper a {
@@ -561,22 +562,22 @@ a.btn:hover {
 
 .site-footer .wrapper .footer-title {
   margin: 1rem 0;
-  padding-top: 2em;
+  padding-top: 0em;
 }
 
 .site-footer .wrapper .info-box {
-  width: 55vmax;
+  width: 35vmax;
 }
 
 .site-footer .wrapper .menu-box {
-  width: 20vmin;
+  width: 15vmin;
 }
 
 .site-footer .wrapper .menu-box ul {
   list-style: none;
 }
 
-.site-footer .wrapper .office-box {
+.site-footer .wrapper .hours {
   width: 30vmin;
 }
 
@@ -587,6 +588,10 @@ a.btn:hover {
 
 .site-footer .copyright p {
   margin: 1.5em;
+}
+
+.site-footer .copyright a {
+  color: white;
 }
 
 @media only screen and (min-width: 768px) {

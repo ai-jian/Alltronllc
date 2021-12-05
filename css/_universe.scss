@@ -122,13 +122,14 @@
   padding: 2em;
   color: var(--light);
   background-color: var(--primary-color);
+
   .wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     line-height: 1.4em;
-
+    font-size: 80%;
     a {
       color: var(--light);
       text-decoration: none;
@@ -140,21 +141,22 @@
 
     .footer-title {
       margin: 1rem 0;
-      padding-top: 2em;
+      padding-top: 0em;
     }
 
     .info-box {
-      width: 55vmax;
+      width: 35vmax;
     }
 
     .menu-box {
-      width: 20vmin;
+      width: 15vmin;
+
       ul {
         list-style: none;
       }
     }
 
-    .office-box {
+    .hours {
       width: 30vmin;
     }
   }
@@ -164,6 +166,9 @@
     font-size: 0.8em;
     p {
       margin: 1.5em;
+    }
+    a {
+      color: white;
     }
   }
 }
