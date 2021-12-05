@@ -58,13 +58,14 @@ img {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   bottom: 10%;
+  right: 30%;
   position: absolute;
 }
 
@@ -72,7 +73,7 @@ img {
 .carousel .carousel-caption p,
 .carousel .carousel-caption h3 {
   color: var(--light);
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.1ch;
   line-height: 1.3em;
 }
@@ -843,8 +844,8 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#5bd9db7c), color-stop(rgba(245, 198, 10, 0.5)), to(white)), url("../assets/images/environment.png");
-  background-image: linear-gradient(white, #5bd9db7c, rgba(245, 198, 10, 0.5), white), url("../assets/images/environment.png");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#5bd9db7c), color-stop(rgba(245, 198, 10, 0.5)), to(white)), url("../assets/images/1.png");
+  background-image: linear-gradient(white, #5bd9db7c, rgba(245, 198, 10, 0.5), white), url("../assets/images/1.png");
   z-index: -1;
 }
 
