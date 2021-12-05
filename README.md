@@ -1,2 +1,2 @@
 # Alltronllc
-For contact form test
+All Rights Reserved by Alltron.
