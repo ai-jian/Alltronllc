@@ -389,7 +389,6 @@ a.btn:hover {
 }
 
 .main-nav {
-  position: relative;
   /* Solid class attached on scroll past first section */
 }
 
@@ -400,13 +399,17 @@ a.btn:hover {
   text-transform: uppercase;
 }
 
+.main-nav .navbar .navbar-header {
+  position: relative;
+}
+
 .main-nav .navbar .navbar-header .navbar-brand {
   color: var(--light);
   font-size: 1.3rem;
   font-weight: bold;
   position: absolute;
-  top: 30%;
-  left: 4%;
+  top: 15%;
+  left: 2%;
   border-color: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -420,7 +423,7 @@ a.btn:hover {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   border-color: transparent;
-  margin: 2.5em 1em;
+  margin: 1em;
 }
 
 .main-nav .navbar .navbar-header .navbar-toggle .icon-bar {
@@ -595,6 +598,14 @@ a.btn:hover {
 }
 
 @media only screen and (min-width: 768px) {
+  .main-nav .navbar .navbar-header {
+    position: unset;
+  }
+  .main-nav .navbar .navbar-header .navbar-brand {
+    position: absolute;
+    top: 25%;
+    left: 3%;
+  }
   .contact-us h2 {
     font-size: 3rem;
   }
@@ -839,7 +850,7 @@ html {
   background-image: -webkit-gradient(linear, left top, left bottom, from(white), color-stop(#5bd9db7c), color-stop(rgba(245, 198, 10, 0.5)), to(white)), url("../assets/images/1_l.jpg");
   background-image: linear-gradient(white, #5bd9db7c, rgba(245, 198, 10, 0.5), white), url("../assets/images/1_l.jpg");
   background-size: cover;
-  z-index: -1;
+  z-home: -1;
 }
 
 .policy-content .container {
